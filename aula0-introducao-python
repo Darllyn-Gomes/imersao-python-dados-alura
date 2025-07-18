@@ -1,0 +1,257 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN2LZuAXfQEQBtWrKHtOsWS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Darllyn-Gomes/imersao-python-dados-alura/blob/main/aula0-introducao-python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0kVPReR_Ohkj",
+        "outputId": "9c798fe2-9052-43b4-dbda-d37686a914fe"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Python foi criado em 1989 por Guido van Rossum.\n",
+            "O nome 'Python' foi inspirado no grupo de comédia britânico Monty Python.\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Informações iniciais sobre o Python\n",
+        "\n",
+        "print(\"Python foi criado em 1989 por Guido van Rossum.\")\n",
+        "print(\"O nome 'Python' foi inspirado no grupo de comédia britânico Monty Python.\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Zen do Python: princípios que guiam a linguagem\n",
+        "import this"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HBrKCAZKOnAp",
+        "outputId": "46cd7088-ebc8-42f9-915d-a2f58db6004f"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The Zen of Python, by Tim Peters\n",
+            "\n",
+            "Beautiful is better than ugly.\n",
+            "Explicit is better than implicit.\n",
+            "Simple is better than complex.\n",
+            "Complex is better than complicated.\n",
+            "Flat is better than nested.\n",
+            "Sparse is better than dense.\n",
+            "Readability counts.\n",
+            "Special cases aren't special enough to break the rules.\n",
+            "Although practicality beats purity.\n",
+            "Errors should never pass silently.\n",
+            "Unless explicitly silenced.\n",
+            "In the face of ambiguity, refuse the temptation to guess.\n",
+            "There should be one-- and preferably only one --obvious way to do it.\n",
+            "Although that way may not be obvious at first unless you're Dutch.\n",
+            "Now is better than never.\n",
+            "Although never is often better than *right* now.\n",
+            "If the implementation is hard to explain, it's a bad idea.\n",
+            "If the implementation is easy to explain, it may be a good idea.\n",
+            "Namespaces are one honking great idea -- let's do more of those!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Trabalhando com strings e print\n",
+        "nome = \"Darllyn\"\n",
+        "mensagem = \"Seja bem-vinda à imersão!\"\n",
+        "\n",
+        "print(nome)\n",
+        "print(mensagem)\n",
+        "print(\"Olá,\", nome + \"!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jMmu2pJgOvf_",
+        "outputId": "aed0b7d3-00c6-45f8-f278-954951003f7c"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Darllyn\n",
+            "Seja bem-vinda à imersão!\n",
+            "Olá, Darllyn!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Exemplo de variáveis e nomeação com snake_case\n",
+        "minha_idade = 25\n",
+        "cidade_natal = \"Olinda\"\n",
+        "tem_curso_python = True\n",
+        "\n",
+        "print(minha_idade)\n",
+        "print(cidade_natal)\n",
+        "print(\"Está fazendo a imersão?\", tem_curso_python)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2RSqvO5SO0Xo",
+        "outputId": "0e9c58f6-db45-4471-b4b5-576702db4a9f"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "25\n",
+            "Olinda\n",
+            "Está fazendo a imersão? True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Operações matemáticas básicas\n",
+        "soma = 10 + 5\n",
+        "multiplicacao = 4 * 3\n",
+        "divisao = 15 / 2\n",
+        "exponencial = 2 ** 3\n",
+        "modulo = 10 % 3\n",
+        "\n",
+        "print(\"Soma:\", soma)\n",
+        "print(\"Multiplicação:\", multiplicacao)\n",
+        "print(\"Divisão:\", divisao)\n",
+        "print(\"Exponencial:\", exponencial)\n",
+        "print(\"Módulo:\", modulo)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pHCyT2ZwO56A",
+        "outputId": "a7afb2c6-6541-41c1-df2e-be0f2fc41654"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Soma: 15\n",
+            "Multiplicação: 12\n",
+            "Divisão: 7.5\n",
+            "Exponencial: 8\n",
+            "Módulo: 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Comentário de uma linha\n",
+        "# Esta linha imprime uma mensagem\n",
+        "\n",
+        "print(\"Comentários deixam o código mais legível!\")  # Comentário ao lado"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2qiEBc3dPCl4",
+        "outputId": "64c9f25b-87c6-42ed-f986-043e83960482"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Comentários deixam o código mais legível!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Exemplo de condicional\n",
+        "idade = 18\n",
+        "\n",
+        "if idade >= 18:\n",
+        "    print(\"Você é maior de idade.\")\n",
+        "else:\n",
+        "    print(\"Você é menor de idade.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZCpyGfksPM5n",
+        "outputId": "b15bf6f7-d57c-4aac-e408-61636d18befc"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Você é maior de idade.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
