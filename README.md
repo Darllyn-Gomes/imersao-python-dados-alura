@@ -38,8 +38,8 @@ Cada aula tem sua própria pasta com:
 
 | Aula | Tema                                   | Link                                     |
 |------|----------------------------------------|------------------------------------------|
-| 1    | Primeiros passos em Python e dados     | [`aula1-primeiros-passos`](./aula1-primeiros-passos/) |
-| 2    | _Em breve..._                          | _(será adicionada conforme liberada)_    |
+| 0    | Primeiros passos em Python e dados     | [`aula0-primeiros-passos`](./aula1-primeiros-passos/) |
+| 1    | _Em breve..._                          | _(será adicionada conforme liberada)_    |
 
 ---
 
